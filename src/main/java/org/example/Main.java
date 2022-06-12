@@ -1,12 +1,8 @@
 package org.example;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
 public class Main {
     public static void main(String[] args) {
-
+/**
         System.out.println("Inicio");
         ///////////////////////Chome
         System.out.println("Abro en Chrome");
@@ -20,6 +16,6 @@ public class Main {
         WebDriver driver2 = new FirefoxDriver(); driver2.get("http://google.com");
        System.out.println(driver2.getTitle());
 
-        System.out.println("Fin");
+        System.out.println("Fin");**/
     }
 }

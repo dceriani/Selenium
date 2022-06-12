@@ -1,15 +1,17 @@
 package steps;
 
-import cucumber.api.java.en.*;
-import pages.GooglePage;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
 
 public class GoogleSteps {
 
-    GooglePage google = new GooglePage();
+ //   GooglePage google = new GooglePage();
 
-    @Given("^Navego a google$")
+    @Given("Navego a google")
     public void navegarGoogle(){
-        google.navigateToGoogle();
+       // google.navigateToGoogle();
     }
 
     @When("^Ingreso criterio de busuqueda$")
@@ -17,7 +19,7 @@ public class GoogleSteps {
 
     }
 
-    @And("^Presionar el boton de buscar$")
+    @When("^Presionar el boton de buscar$")
     public void presionarBotonBusqueda(){
 
     }

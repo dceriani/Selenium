@@ -1,5 +1,5 @@
 package pages;
-
+/**
 public class GooglePage extends BasePage{
 
     public GooglePage (){
@@ -11,3 +11,4 @@ public class GooglePage extends BasePage{
         //navigateTo("http://google.com");
     }
 }
+*/
